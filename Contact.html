@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width,  initial-scale=1.0">
+    <title>Helping Others</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    
+</head>
+<body>
+    <section class="second-header">
+        <nav>
+            <a href="index.html"><img src="images/Website%20Logo_.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="form.html">Student Form</a></li>
+                    <li><a href="opportunities.html">Find Opportunities</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div> 
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact</h1>
+</section>
+    
+<!----------Content-------->
+
+    
+<section class="contact">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>null</h5>
+                    <p>Contact on phone</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <span>
+                    <h5>helpingothers.cause@gmail.com</h5>
+                    <p>Email your concernss</p>
+                </span>
+            </div>
+        </div>
+<div class="contact-col">
+            
+    <form action="">
+        <input type="text" placeholder="Enter Your Name" required>
+        <input type="email" placeholder="Enter Email " >
+        <input type="number" placeholder="Enter Phone Number" >
+        <textarea rows="8" placeholder="Send Us Your Query or Reviews"></textarea>
+        <button type="Submit" class="help-btn btn-color">Send Message</button>
+    </form>
+        
+        
+        </div>
+    </div>
+</section>
+
+
+    
+<!----------footer-------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>This website is a way to make people aware about the resources provided by the government and NGOs<br> to help the children in getting better education. And secure their future.</p>
+    <!------<div class="icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>----->
+</section>
+
+    
+<!--------JavaScript for Toggle Menu--------->
+<script>
+    
+    var navlinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200px";
+    }
+
+</script>   
+    
+</body>
+</html>
+
+
+
+
