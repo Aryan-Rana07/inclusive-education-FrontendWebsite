@@ -14,3 +14,10 @@ Here are a few glipses of the website:
 <br>
 <br>
 <img src="https://github.com/ar-rana/inclusive-education-FrontendWebsite/assets/140689703/26fbd85c-4a4e-4705-aab6-488aa9f3fedc"/>
+
+---
+
+## What I Learned 🙂
+During this project I learned HTML, CSS and how to impliment media queries in CSS. I learned to create responsive web designs usign CSS and Javascript, I also learned to impliment HTML forms and design creatives for a website.  
+
+
